@@ -1,0 +1,75 @@
+.footer{
+    background-color:var(--color-dark-grey);
+    color: var(--color-tertiary);
+    padding-block: 5.5rem;
+}
+
+.footer h3{
+    font-family: var(--font-text);
+    font-size: 1rem;
+    margin-block-end: 40px;
+}
+
+.footer-info {
+    display: flex;
+    gap: 8.4375 rem;
+}
+
+.footer-info > div {
+    width: 33%;
+}
+
+.footer-info-company {
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-info-company-desc {
+    color: #ADB29E;
+}
+
+
+.footer-info-menus {
+    display: flex;
+    gap: 7.5rem;
+}
+
+.footer-info-pages-menu-item,
+.footer-info-utility-menu-item{
+    color: #DBDFD0;   
+}
+
+.footer-info-pages-menu-item:not(:last-child),
+.footer-info-utility-menu-item:not(:last-child){
+    margin-block-end: 1.25rem;
+}
+
+.footer-info-instagram-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.footer-info-instagram-img{
+    border-radius: 12px;
+}
+
+.footer-copyright {
+    padding-block-start: 30px;
+    border-top: 1px solid #414536;
+    color: #ADB29E;
+    text-align: center;
+}
+
+svg circle {
+    fill: var(--color-primary);
+    fill-opacity: 1;
+}
+
+
+/***MediaQueries***/
+
+@media (width <= 1280px) {
+    
+}

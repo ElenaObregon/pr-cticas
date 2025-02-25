@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
     <header class="header">
         <div class="bg-dark-grey">
-            <nav class="top-bar">
+            <nav class="top-bar container">
                 <div class="top-bar-contact">
-                    <a href="tel:1234567890">
+                    <a class="phone" href="tel:1234567890">
                         <img src="/images/phone.svg" alt="">
                     (414)857 0107
                     </a>
-                    <a href="mailto:mail@mail.com">
-                        <img src="/images/mail.svg" alt="icono del mail">
+                    <a class="email" href="mailto:mail@mail.com">
                     yummy@bistrobliss
                     </a>
                 </div>
@@ -46,7 +48,7 @@
                 </nav>
             </nav>
         </div>
-        <div class="main-menu">
+        <div class="main-menu container">
             <div class="logo">
                 <img class="logo" src="/images/japanese-food (1).svg" alt="Logo del restaurante Bistro Bliss">
                 <h1>Bistro Bliss</h1>
@@ -84,36 +86,54 @@
                 </div>
             </div>
        </section>
-       <section class="our menu">
+       <div class="bg-white">
+        <section class="our-menu container">
             <h3 class="our-menu-title">Browse Our Menu</h3>
             <div class="our-menu-cards">
                 <article class="our-menu-card">
-                    <img class="our-menu-card-image" src="/images/icono taza.svg" alt="Icon Breakfast">
-                    <h4 class="our-menu-card-title">Breakfast</h4>
-                    <p class="our-menu-card-desc">In the new era of technology we look in the future with certainty and pride for our life.</p>
-                    <a href="">Explore Menu</a>
+                    <div class="our-menu-card-img-content">
+                        <img class="our-menu-card-image" src="/images/icono taza.svg" alt="Icon Breakfast">
+                    </div>
+                    <div class="our-menu-card-content">
+                        <h3 class="our-menu-card-title">Breakfast</h3>
+                        <p class="our-menu-card-desc">In the new era of technology we look in the future with certainty and pride for our life.</p>
+                    </div>
+                    <a class="our-menu-card-link" href="">Explore Menu</a>
                 </article>
                 <article class="our-menu-card">
-                    <img class="our-menu-card-image" src="/images/icono bol.svg" alt="Icon Main-dishes">
-                    <h4 class="our-menu-card-title" >Main Dishes</h4>
-                    <p class="our-menu-card-desc">In the new era of technology we look in the future with certainty and pride for our life.</p>
-                    <a href="">Explore Menu</a>
+                    <div class="our-menu-card-img-content">
+                        <img class="our-menu-card-image" src="/images/icono bol.svg" alt="Icon Main-dishes">
+                    </div>
+                    <div class="our-menu-card-content">
+                        <h3 class="our-menu-card-title" >Main Dishes</h3>
+                        <p class="our-menu-card-desc">In the new era of technology we look in the future with certainty and pride for our life.</p>
+                    </div>
+                    <a class="our-menu-card-link" href="">Explore Menu</a>
                 </article>
                 <article class="our-menu-card">
-                    <img class="our-menu-card-image" src="/images/icono bol.svg" alt="Icon Drinks">
-                    <h4 class="our-menu-card-title">Drinks</h4>
-                    <p class="our-menu-card-desc">In the new era of technology we look in the future with certainty and pride for our life.</p>
-                    <a href="">Explore Menu</a>
+                    <div class="our-menu-card-img-content">
+                        <img class="our-menu-card-image" src="/images/icono bol.svg" alt="Icon Drinks">
+                    </div>
+                    <div class="our-menu-card-content">
+                        <h3 class="our-menu-card-title">Drinks</h3>
+                        <p class="our-menu-card-desc">In the new era of technology we look in the future with certainty and pride for our life.</p>
+                    </div>
+                    <a class="our-menu-card-link" href="">Explore Menu</a>
                 </article>
                 <article class="our-menu-card">
-                    <img class="our-menu-card-image" src="/images/icono tarta.svg" alt="Icon Desserts">
-                    <h4 class="our-menu-card-title">Desserts</h4>
-                    <p class="our-menu-card-desc">In the new era of technology we look in the future with certainty and pride for our life.</p>
-                    <a href="">Explore Menu</a>
+                    <div class="our-menu-card-img-content">
+                        <img class="our-menu-card-image" src="/images/icono tarta.svg" alt="Icon Desserts">
+                    </div>
+                    <div class="our-menu-card-content">
+                        <h3 class="our-menu-card-title">Desserts</h3>
+                        <p class="our-menu-card-desc">In the new era of technology we look in the future with certainty and pride for our life.</p>
+                    </div>
+                    <a class="our-menu-card-link" href="">Explore Menu</a>
                 </article>
             </div>
-       </section>
-       <section class="about-us">
+        </section>
+       </div>   
+       <section class="about-us container">
             <div class="about-us-info">
                 <img class="about-us-info-image" src="/images/about us.jpg" alt="Image about-us">
                 <article class="about-us-info-box">
@@ -125,12 +145,13 @@
             </div>
             <div class="about-us-text">
                 <h2 class="about-us-title">We provide healthy food for your family.</h2>
-                <p class="about-us-desc">Our story began with a vision to create a unique dining experience that merges fine dining, exceptional service, and a vibrant ambiance. Rooted in city's rich culinary culture, we aim to honor our local roots while infusing a global palate.</p>
+                <p class="about-us-desc-main">Our story began with a vision to create a unique dining experience that merges fine dining, exceptional service, and a vibrant ambiance. Rooted in city's rich culinary culture, we aim to honor our local roots while infusing a global palate.</p>
                 <p class="about-us-desc">At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.</p>
-                <a class="about-us-link" href="">More About us</a>
+                <a class="about-us-link button button-xl">More About Us</a>
             </div>
        </section>
-       <section class="services">
+       <div class="bg-white">
+        <section class="services container">
             <h2 class="services-title">We also offer unique services for your events</h2>
             <div class="services-cards">
                 <article class="services-card">
@@ -154,12 +175,13 @@
                     <p class="services-card-desc">In the new era of technology we look in the future with certainty for life.</p>
                 </article>
             </div>
-       </section>
-       <section class="delivery">
+        </section>
+       </div> 
+       <section class="delivery container">
             <div class="delivery-imgs">
-                <img class="delivery-imgs-img" src="/images/chef.jpg" alt="">
-                <img class="delivery-imgs-img" src="/images/prawns.jpg" alt="">
-                <img class="delivery-imgs-img" src="/images/meat.jpg" alt="">
+                <img class="delivery-img" src="/images/chef.jpg" alt="">
+                <img class="delivery-img" src="/images/prawns.jpg" alt="">
+                <img class="delivery-img" src="/images/meat.jpg" alt="">
             </div>
             <div class="delivery-info">
                 <h2 class="delivery-info-title">Fastest Food Delivery in City</h2>
@@ -248,8 +270,8 @@
             
        </section>
    </main>
-   <footer class="footer">
-        <div class="footer-info">
+   <footer class="footer" id="footer">
+        <div class="footer-info container">
             <div class="footer-info-company">
                 <div class="logo">
                     <img class="logo" src="/images/japanese-food (1).svg" alt="Logo del restaurante Bistro Bliss">
@@ -307,7 +329,7 @@
                 </div>
             </div>
         </div>
-        <p class="footer-copyright">Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
+        <p class="footer-copyright container">Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
    </footer>
 </body>
 </html>

@@ -1,13 +1,11 @@
 .bg-dark-grey{
-    background-color: #474747;
+    background-color: var(--color-dark-grey);
 }
 
 .top-bar{
     display: flex;
     justify-content: space-between;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 9px 0;
+    padding: 9px 1rem;
 }
 
 .top-bar a {
@@ -23,6 +21,12 @@
     align-items: center;
 }
 
+.top-bar-contact .email::before {
+    content:url("/images/mail.svg");
+    height:100%;
+    aspect-ratio:1;
+}
+
 .top-bar-social-menu{
     display: flex;
     gap: 4px;
@@ -30,12 +34,10 @@
 }
 
 .main-menu{
-    max-width: 1300px;
-    margin: 0 auto;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0;
+    padding: 30px 1rem;
 }
 
 .logo{
@@ -51,5 +53,5 @@
 }
 
 .menu-list a{
-    color: #2C2F24;
+    color: var(--color-secondary);
 }

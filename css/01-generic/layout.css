@@ -1,0 +1,26 @@
+body{
+    font-family: var(--font-text);
+    background-color: var(--color-tertiary);
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: var(--font-title);
+    font-weight: 400;
+}
+
+.container{
+    max-width: 81rem;
+    margin: 0 auto;
+    padding-inline: 1rem;
+}
+
+.bg-white{
+    background-color: var(--color-white);
+}
+
+@media (max-width: 1296px) {
+    .container{
+        
+    }
+}
