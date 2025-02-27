@@ -1,57 +1,54 @@
-.bg-dark-grey{
+.bg-dark-grey {
     background-color: var(--color-dark-grey);
 }
-
-.top-bar{
+.top-bar {
     display: flex;
     justify-content: space-between;
-    padding: 9px 1rem;
+    padding: 0.5625rem 1rem;
 }
-
 .top-bar a {
     color: white;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
 }
-
-.top-bar-contact{
+.top-bar-contact {
     display: flex;
-    gap: 25px;
+    gap: 1.5625rem;
     align-items: center;
 }
-
 .top-bar-contact .email::before {
     content:url("/images/mail.svg");
     height:100%;
     aspect-ratio:1;
 }
-
-.top-bar-social-menu{
+.top-bar-social-menu {
     display: flex;
-    gap: 4px;
+    gap: 0.25rem;
     align-items: center;
 }
-
-.main-menu{
+.main-menu {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 1rem;
+    padding: 1.875rem 1rem;
 }
-
-.logo{
+.logo {
     display: flex;
     align-items: center; 
-    gap: 14px;
+    gap: 0.875rem;
 }
-
-.menu-list{
+.menu-list {
     display:flex;
     align-items: center;
-    gap: 40px;
+    gap: 2.5rem;
+}
+.menu-list a {
+    color: var(--color-secondary);
 }
 
-.menu-list a{
-    color: var(--color-secondary);
+@media (width <= 768px) {
+    .menu {
+        display: none;
+    }
 }

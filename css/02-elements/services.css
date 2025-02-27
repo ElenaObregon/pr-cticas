@@ -1,39 +1,56 @@
 .services {
     padding-block: 7.5rem;
 }
-
-.services-title{
+.services-title {
     color: var(--color-font);
-    font-size: 3.4375rem;
+    font-size: clamp(3rem, 2.5598rem + 1.0836vw, 3.4375rem);
     font-weight: 500;
     line-height: 110%;
     margin-block-end: 4rem;
     max-width: 42.1875rem;
 }
-
-.services-cards{
+.services-cards {
     display: flex;   
     align-items: center;
     gap: 1.5rem;
 }
-
-.services-card-img{
+.services-card-img {
     margin-block-end: 1.875rem;
 }
-
-.services-card-title{
+.services-card-title {
     font-family: var(--font-text);
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 125%;
     color: var(--color-font);
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
-
-.services-card-desc{
+.services-card-desc {
     font-family: var(--font-text);
     font-size: 1rem;
     color: #414536;
+}
+
+@media (width <= 1024px) {
+    .services-cards {
+        flex-wrap: wrap;
+    }
+    .services-card {
+        width: calc(50% - 1rem);
+    }
+    .services-card-img {
+        width: 100%
+    }
+}
+@media (width <= 768px){
+    .services {
+        padding-block: 3.5rem;
+    }
+}
+@media (width <= 650px){
+    .services-card {
+        width: 100%;
+    }
 }
 
 

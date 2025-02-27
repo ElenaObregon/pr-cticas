@@ -1,4 +1,4 @@
-.hero-banner{
+.hero-banner {
     background-image: linear-gradient(rgb(255 255 255 / 0.3), rgb(255 255 255 / 0.3)),
     url(/images/hero-banner.jpg);
     background-repeat: no-repeat;
@@ -8,24 +8,20 @@
     justify-content: center;
     align-items: center;
 }
-
-.hero-banner-content{
+.hero-banner-content {
     max-width: 42rem;
     padding: 12.5rem 0;
     text-align: center;
 }   
-
 .hero-banner-title {
-    font-size: 6.25rem;
+    font-size: clamp(3.125rem, -0.0193rem + 77399vw, 6.25rem);
     color: var(--color-dark-grey);
 }
-
-.hero-banner-description{
+.hero-banner-description {
     font-size: 1.25rem;
-    margin: 1.5rem 0 40px;
+    margin: 1.5rem 0 2.5rem;
 }
-
-.hero-banner-buttons{
+.hero-banner-buttons {
     display: flex;
     justify-content: center;
     gap: 1rem;

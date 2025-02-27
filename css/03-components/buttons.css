@@ -16,11 +16,9 @@
         cursor: not-allowed;
     }
 }
-
 .button-xl {
-    padding: 20px 32px;
+    padding: 1.25rem 2rem;
 }
-
 .button-red {
     border: 1.5px solid var(--color-primary);
     background-color: var(--color-primary);
