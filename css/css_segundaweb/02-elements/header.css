@@ -1,0 +1,57 @@
+.bg-dark-grey {
+    background-color: var(--color-dark-grey);
+}
+.bg-color-tertiary{
+    background-color: var(--color-tertiary);
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5625rem 1rem;
+}
+.top-bar a {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.top-bar-contact {
+    display: flex;
+    gap: 1.5625rem;
+    align-items: center;
+}
+.top-bar-contact .email::before {
+    content:url("/images/mail.svg");
+    height:100%;
+    aspect-ratio:1;
+}
+.top-bar-social-menu {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+}
+.main-menu {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.875rem 1rem;
+}
+.logo {
+    display: flex;
+    align-items: center; 
+    gap: 0.875rem;
+}
+.menu-list {
+    display:flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+.menu-list a {
+    color: var(--color-secondary);
+}
+
+@media (width <= 768px) {
+    .menu {
+        display: none;
+    }
+}

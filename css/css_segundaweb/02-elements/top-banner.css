@@ -1,0 +1,20 @@
+.top-banner {
+    display: flex;
+    flex-direction: column;
+    padding-block: 5.5rem 4rem;
+}
+.top-banner-title {
+    font-size: 3.4375rem;
+    font-weight: 500;
+    line-height: 110%;
+    color: var(--color-font);
+    margin: 0 auto;
+    margin-block-end: 4rem;
+    text-align: center;
+    max-width: 1030px;
+}
+.top-banner-img {
+    width: 100%;
+    padding-inline: 6rem;
+    border-radius: 12px 12px 0px 0px;
+}
