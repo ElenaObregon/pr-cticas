@@ -62,13 +62,13 @@
     aspect-ratio: 1;
 }
 .delivery-points-item:nth-child(1)::before{
-    content: url(/images/clock.svg);
+    content: url(../../../images/clock.svg);
 }
 .delivery-points-item:nth-child(2)::before{
-    content: url(/images/receipt-tax.svg);
+    content: url(../../../images/receipt-tax.svg);
 }
 .delivery-points-item:nth-child(3)::before{
-    content: url(/images/shopping-cart.svg);
+    content: url(../../../images/shopping-cart.svg);
 }
 
 @media (width <= 1280px) {

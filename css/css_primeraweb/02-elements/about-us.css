@@ -30,13 +30,13 @@
     line-height: 125%;
 }
 .about-us-info-box-phone::before {
-    content: url(/images/phone.svg);
+    content: url(../../../images/phone.svg);
 }
 .about-us-info-box-mail::before {
-    content: url(/images/mail.svg);
+    content: url(../../../images/mail.svg);
 }
 .about-us-info-box-address::before {
-    content: url(/images/location-marker.svg);
+    content: url(../../../images/location-marker.svg);
 }
 .about-us-info-box-phone,
 .about-us-info-box-mail,

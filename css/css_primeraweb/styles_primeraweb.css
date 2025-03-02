@@ -1,21 +1,21 @@
 /*Settings*/
-@import "/css/css_primeraweb/00-settings/variables.css";
+@import "00-settings/variables.css";
 
 /*Generic*/
-@import "/css/css_primeraweb/01-generic/reset.css";
-@import "/css/css_primeraweb/01-generic/layout.css";
+@import "01-generic/reset.css";
+@import "01-generic/layout.css";
 
 /*Elements*/
-@import "/css/css_primeraweb/02-elements/header.css";
-@import "/css/css_primeraweb/02-elements/hero-banner.css";
-@import "/css/css_primeraweb/02-elements/our-menu.css";
-@import "/css/css_primeraweb/02-elements/about-us.css";
-@import "/css/css_primeraweb/02-elements/services.css";
-@import "/css/css_primeraweb/02-elements/delivery.css";
-@import "/css/css_primeraweb/02-elements/opinions.css";
-@import "/css/css_primeraweb/02-elements/blog.css";
-@import "/css/css_primeraweb/02-elements/footer.css";
+@import "02-elements/header.css";
+@import "02-elements/hero-banner.css";
+@import "02-elements/our-menu.css";
+@import "02-elements/about-us.css";
+@import "02-elements/services.css";
+@import "02-elements/delivery.css";
+@import "02-elements/opinions.css";
+@import "02-elements/blog.css";
+@import "02-elements/footer.css";
 
 /*Components*/
-@import "/css/css_primeraweb/03-components/buttons.css";
+@import "03-components/buttons.css";
 
